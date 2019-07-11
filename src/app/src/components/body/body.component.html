@@ -1,0 +1,42 @@
+<div class="container">
+  <p><img align="middle" alt="Bennet" class="logo-pad" src="../../../../assets/logo_03.png"><strong class="text-bold">Bennet
+    university,Delhi, New Delhi</strong></p>
+
+</div>
+<div class="container">
+
+</div>
+<!--for menu items displayed-->
+<mat-toolbar>
+  <mat-toolbar-row>
+    <span class="example-spacer"></span>
+    <button [matMenuTriggerFor]="aboutMenu" mat-button>About Us</button>
+    <mat-menu #aboutMenu="matMenu">
+      <button mat-menu-item>Item 4</button>
+      <button mat-menu-item>Item 2</button>
+    </mat-menu>
+    <button [matMenuTriggerFor]="campusMenu" mat-button>Campus</button>
+    <mat-menu #campusMenu="matMenu">
+      <button mat-menu-item>Item 3</button>
+      <button mat-menu-item>Item 2</button>
+    </mat-menu>
+    <button [matMenuTriggerFor]="affMenu" mat-button>Affiliation</button>
+    <mat-menu #affMenu="matMenu">
+      <button mat-menu-item>Item 3</button>
+      <button mat-menu-item>Item 2</button>
+    </mat-menu>
+    <button [matMenuTriggerFor]="advMenu" mat-button>Advertisements</button>
+    <mat-menu #advMenu="matMenu">
+      <button mat-menu-item>Item 3</button>
+      <button mat-menu-item>Item 2</button>
+    </mat-menu>
+    <button [matMenuTriggerFor]="contactMenu" mat-button>Contact Us</button>
+    <mat-menu #contactMenu="matMenu">
+      <button mat-menu-item>Item 3</button>
+      <button mat-menu-item>Item 2</button>
+    </mat-menu>
+
+    <button class="login" mat-flat-button>LOGIN</button>
+  </mat-toolbar-row>
+</mat-toolbar>
+
